@@ -1,5 +1,5 @@
 function ListGroup() {
-  let items = ["lol", "San Fransisco", "Tokyo", "London", "Paris"];
+  let items = ["l", "Fransisco", "Tokyo", "London", "Paris"];
 
   // If statement can only br outside of return ()
   //   if (items.length == 0) {
