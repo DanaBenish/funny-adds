@@ -3,6 +3,7 @@ import { Toggle } from "./components/Toggle";
 import "./index.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import BitcoinPrice from "./components/Kraken";
 //import Home from "./pages/Level1";
 //import Reports from './pages/Level1';
 //import Products from './pages/Lever2';
@@ -26,6 +27,9 @@ export const App = () => {
         <h1 className="title">Hello world!</h1>
         <div className="box">
           <h2>This is a box</h2>
+        </div>
+        <div>
+          <BitcoinPrice />
         </div>
       </div>
     </>
